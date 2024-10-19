@@ -1,0 +1,146 @@
+@import url(https://fonts.google.com/specimen/Protest+Revolution);
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 100vh;
+    background-image: url(nature.jpg);
+   background-size: cover;
+
+}
+.form-continer{
+    justify-content: center;
+    align-items: center;
+    background: transparent;
+    backdrop-filter: blur(9px);
+    margin: 80px;
+    padding:  30px;
+    border-radius: 20px;
+    color: whitesmoke;
+    box-shadow: 0px 0px 20px 2.3px rgba(0,0,0,0.2)
+
+
+    
+}
+
+h1{
+    text-align: center;
+    padding-bottom: 20px;
+    color: white;
+    letter-spacing: 0.3px;
+
+}
+.icons{
+    
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-between;
+}
+    
+.google-btn ,
+.Apple-btn{
+    width:48%;
+    height: 30px;
+    background: transparent;
+    border-color: 2px solid #333;
+    border-radius: 45px;
+    
+    color: white;
+    font-weight: 1%;
+    line-height: 1;
+    margin-bottom:20px;
+}
+i[class^="bx"]{
+   font-size: 20px;
+   margin-right: 5px;
+   display: inline-block;
+   vertical-align: middle;
+}
+.login-forms{
+    position: relative;
+    width: 100%;
+    height: 30px;
+   display: grid;
+   margin-bottom: 10px;
+   color: white;
+}
+.login-password{
+    position: relative;
+    width:100%;
+    height:30px;
+    display: grid;
+    margin-bottom: 10px;
+    color: white;
+   
+}
+.text{
+    background:transparent;
+    padding-left: 8px;
+    color: aliceblue;
+    border-radius: 30px;
+    font-weight: 100%;
+}
+.password{
+    background:transparent;
+    border-radius:30px ;
+    color: white;
+    padding-left: 8px;
+    font-weight: 100%;
+}
+.reg-login{
+    align-items:middle;
+    width: 100%;
+    height: 30px;
+    vertical-align: middle;
+    font-size: 100%;
+    font-weight: 100%;
+    border-radius: 30px;
+}
+hr{
+    margin-bottom:10px;
+}
+::placeholder{
+    color: white;
+    font-weight: 100%;
+}
+p ,a{
+    color: aliceblue;
+    text-align: center;
+    margin-top: 20px;
+
+}
+h2{
+    width: 100px;
+    margin-right: 15px;
+    color: rgba(0, 229, 255, 0.712);
+    
+}
+
+@media screen and (max-width: 600px) {
+    h2 {
+        width: 100%;
+        text-align: center; /* Centers the text horizontally */
+        position: absolute; /* Ensures it stays at the top */
+        top: 10px; /* Adjust this value as needed for spacing */
+        left: 0;
+        padding-top: 100px;
+        color: rgba(11, 2, 33, 0.712);
+    }
+
+    .form-continer {
+        justify-content: center;
+        align-items: center;
+        background: transparent;
+        backdrop-filter: blur(9px);
+        padding: 30px;
+        border-radius: 20px;
+        color: whitesmoke;
+        box-shadow: 0px 0px 20px 2.3px rgba(0, 0, 0, 0.2);
+        margin-top: 60px; /* Adds space for the h2 */
+    }
+}
